@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+      background: linear-gradient(to right, #ffffff, #fdfdfd);
+      color: #333;
+    }
+    .navbar-brand {
+      font-weight: 600;
+    }
+    .navbar {
+      background: linear-gradient(to right, #2771ae, #2a859a);
+    }
+    .navbar .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+    .section {
+      padding: 80px 0;
+    }
+    .section h2 {
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #2c1071;
+    }
+    .social-icons a {
+      color: #333;
+      margin: 0 15px;
+      font-size: 1.8rem;
+      transition: transform 0.3s, color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #d479c2;
+      transform: scale(1.2);
+    }
+    .resume-button {
+      margin: 40px 0;
+    }
+    .skill-box {
+      background: linear-gradient(135deg, #437992, #a85791);
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 10px;
+      font-weight: 500;
+      color: #e9e1e1;
+    }
+    .project-card {
+      background: linear-gradient(135deg, #2a35a3, #f48fb1);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      color: #fff;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+    .btn-custom {
+      background-color: #911b42;
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 30px;
+    }
+    .btn-custom:hover {
+      background-color: #921941;
+    }
+    footer {
+      background-color: #396b94;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- About Section -->
+<section id="about" class="section text-center">
+  <div class="container">
+    <h2>About Me</h2>
+    <p class="lead">Aspiring Front-End Developer and final-year Information Technology student with hands-on experience in building responsive
+ and user-friendly web applications using HTML, CSS, and JavaScript. Passionate about creating engaging UI/UX
+ experiences and eager to contribute to innovative development teams. Seeking an entry-level front-end role where I can apply
+ my skills, continue learning modern frameworks, and help deliver impactful web solutions.</p>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section text-center">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-2 skill-box">HTML</div>
+      <div class="col-md-2 skill-box">CSS</div>
+      <div class="col-md-2 skill-box">JavaScript</div>
+      <div class="col-md-2 skill-box">Bootstrap</div>
+      <div class="col-md-2 skill-box">Git</div>
+      <div class="col-md-2 skill-box">Python</div>
+      <div class="col-md-2 skill-box">SQL</div>
+      <div class="col-md-2 skill-box">Java</div>
+    </div>
+  </div>
+  <section id="projects" class="section text-center">
+  <div class="container">
+    <h2>Projects</h2>
+<div class="row g-4">
+  <div class="col-md-4">
+    <div class="project-card">
+      <h4>Typing Speed Test</h4>
+      <p>A typing speed test web app to measure WPM and accuracy with real-time feedback and error detection.</p>
+      <a href="https://github.com/jaya-sri-mattaparthi/typing_speed_test" class="btn btn-sm btn-light">View on GitHub</a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="project-card">
+      <h4>Expense Tracker</h4>
+      <p>A Python + Tkinter desktop app to log daily expenses with descriptions, categories, and timestamps.</p>
+      <a href="https://github.com/jaya-sri-mattaparthi/expense_tracker" class="btn btn-sm btn-light">View on GitHub</a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="project-card">
+      <h4>Password Generator</h4>
+      <p>A Python-Tkinter app for generating secure, customizable passwords with a user-friendly interface and strong security features.</p>
+      <a href="https://github.com/jaya-sri-mattaparthi/password_generator.py" class="btn btn-sm btn-light">View on GitHub</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Projects Section -->
+
+<!-- Contact Section -->
+<section id="contact" class="section text-center">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:jayasri82004@gmail.com">jayasri82004@gmail.com</a></p>
+    <div class="social-icons">
+      <a href="https://github.com/jaya-sri-mattaparthi" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/jaya-sri-durga-aishwarya-b01254252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+      
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4">
+  <p>&copy; 2025 mattaparthi jaya sri. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
